@@ -19,12 +19,12 @@ export default function Home() {
             A refreshingly simple CRM for solo professionals. Just a pipeline, follow-up reminders, and the 3 metrics that matter. No bloat. No complexity.
           </p>
           <div className="mt-10 flex items-center justify-center gap-6">
-            <a
-              href="https://app.dcrm.life"
+            <Link
+              href="/waitlist"
               className="rounded-md bg-black px-8 py-3.5 text-base font-semibold text-white hover:bg-gray-800 transition-colors"
             >
-              Try dcrm.life Free
-            </a>
+              Join Waitlist
+            </Link>
             <Link
               href="#features"
               className="text-base font-semibold leading-7 text-gray-900 hover:text-gray-600 transition-colors"
@@ -33,7 +33,7 @@ export default function Home() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-gray-500">
-            Setup takes 60 seconds. No credit card required.
+            Currently in development. Be the first to know when we launch.
           </p>
         </div>
       </section>
@@ -219,10 +219,10 @@ export default function Home() {
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-gray-900">Solo Professional</h3>
                 <p className="mt-4 flex items-baseline justify-center gap-x-2">
-                  <span className="text-5xl font-bold tracking-tight text-gray-900">$19</span>
+                  <span className="text-5xl font-bold tracking-tight text-gray-900">$9.99</span>
                   <span className="text-sm font-semibold leading-6 text-gray-600">/month</span>
                 </p>
-                <p className="mt-2 text-sm text-gray-500">or $190/year (save $38)</p>
+                <p className="mt-2 text-sm text-gray-500">or $99/year (save $20)</p>
               </div>
 
               <ul className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
@@ -256,14 +256,14 @@ export default function Home() {
                 </li>
               </ul>
 
-              <a
-                href="https://app.dcrm.life"
+              <Link
+                href="/waitlist"
                 className="mt-8 block w-full rounded-md bg-black px-4 py-3 text-center text-sm font-semibold text-white hover:bg-gray-800 transition-colors"
               >
-                Start Free Trial
-              </a>
+                Join Waitlist
+              </Link>
               <p className="mt-4 text-center text-xs text-gray-500">
-                14-day free trial. No credit card required.
+                Be the first to know when we launch.
               </p>
             </div>
           </div>
@@ -280,12 +280,12 @@ export default function Home() {
             Setup takes 60 seconds. Start tracking your deals today.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href="https://app.dcrm.life"
+            <Link
+              href="/waitlist"
               className="rounded-md bg-black px-8 py-3.5 text-base font-semibold text-white hover:bg-gray-800 transition-colors"
             >
-              Try dcrm.life Free
-            </a>
+              Join Waitlist
+            </Link>
           </div>
         </div>
       </section>
@@ -347,7 +347,7 @@ export default function Home() {
           </div>
           <div className="mt-8 border-t border-gray-200 pt-8">
             <p className="text-sm text-gray-600 text-center">
-              © 2024 dcrm.life. Built for solo professionals who hate complicated software.
+              © 2025 dcrm.life. Built for solo professionals who hate complicated software.
             </p>
           </div>
         </div>

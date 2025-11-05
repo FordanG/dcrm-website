@@ -10,7 +10,7 @@ export default function Navigation() {
     <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
       <div className="mx-auto max-w-7xl px-6 py-4 lg:px-8">
         <nav className="flex items-center justify-between">
-          <Link href="/" className="text-xl font-semibold">
+          <Link href="/" className="text-xl font-semibold text-black">
             dcrm.life
           </Link>
 
@@ -28,12 +28,12 @@ export default function Navigation() {
             >
               Pricing
             </Link>
-            <a
-              href="https://app.dcrm.life"
+            <Link
+              href="/waitlist"
               className="rounded-md bg-black px-6 py-2.5 text-sm font-semibold text-white hover:bg-gray-800 transition-colors"
             >
-              Start Free Trial
-            </a>
+              Join Waitlist
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -78,12 +78,13 @@ export default function Navigation() {
               >
                 Pricing
               </Link>
-              <a
-                href="https://app.dcrm.life"
+              <Link
+                href="/waitlist"
                 className="rounded-md bg-black px-6 py-2.5 text-sm font-semibold text-white hover:bg-gray-800 transition-colors text-center"
+                onClick={() => setIsOpen(false)}
               >
-                Start Free Trial
-              </a>
+                Join Waitlist
+              </Link>
             </div>
           </div>
         )}
