@@ -18,6 +18,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: '/icon', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-icon', type: 'image/png' },
+    ],
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -25,11 +33,20 @@ export const metadata: Metadata = {
     title: "dcrm.life - Simple CRM for Solo Professionals",
     description: "A refreshingly simple CRM for solo professionals. Just a pipeline, follow-up reminders, and the 3 metrics that matter. No bloat. No complexity.",
     siteName: "dcrm.life",
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'dcrm.life - Simple CRM for Solo Professionals',
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "dcrm.life - Simple CRM for Solo Professionals",
     description: "A refreshingly simple CRM for solo professionals. Just a pipeline, follow-up reminders, and the 3 metrics that matter. No bloat. No complexity.",
+    images: ['/twitter-image'],
   },
   robots: {
     index: true,
